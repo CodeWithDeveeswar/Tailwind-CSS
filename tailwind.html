@@ -7,7 +7,15 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <!-- Lesson 1: Color, Padding, Margin and Text -->
+    <!-- 4. col-span, row-span & gap -->
+    <div class="grid grid-cols-3 gap-7">
+      <div class="bg-blue-300 p-6 rounded-lg col-span-2">Special Pizza</div>
+      <div class="bg-pink-300 p-6 rounded-lg row-span-2">Cheese Pizza</div>
+      <div class="bg-yellow-300 p-6 rounded-lg">Veg Pizza</div>
+      <div class="bg-green-300 p-6 rounded-lg">Pizza</div>
+    </div>
+
+    <!-- 3. Color, Padding, Margin & Text -->
     <div class="bg-orange-500 p-8 m-10">
       <p class="text-orange-100 text-sm font-bold">LIMITED TIME OFFER</p>
       <h2 class="text-white text-5xl font-bold mt-5">Pizza Party</h2>
@@ -16,21 +24,9 @@
       <button class="bg-white font-bold px-6 py-3">order now</button>
     </div>
 
-    <!-- Lesson 3: Grid Basics -->
-    <div class="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 m-10">
-      <div class="bg-orange-200 p-3">Card 1</div>
-      <div class="bg-red-200 p-3">Card 2</div>
-      <div class="bg-blue-200 p-3">Card 3</div>
-      <div class="bg-yellow-200 p-3">Card 4</div>
-      <div class="bg-slate-200 p-3">Card 5</div>
-      <div class="bg-purple-200 p-3">Card 6</div>
-      <div class="bg-violet-200 p-3">Card 7</div>
-      <div class="bg-green-200 p-3">Card 8</div>
-    </div>
-
-    <!-- Lesson 3: Product Grid Layout -->
+    <!-- 2. Grid Basics & Product Grid Layout -->
     <div class="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
-      <!-- Lesson 2: Width, Height, Border & Shadow -->
+      <!-- 1. Width, Height, Border & Shadow -->
       <div class="mx-auto max-w-sm">
         <div class="bg-orange-200 py-8 text-center text-7xl">🍕</div>
         <div class="p-6">
